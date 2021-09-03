@@ -1,4 +1,19 @@
-This project uses the yarn package manager. To run the project follow these steps:
+Requirements:
+Please create a new RN project with the following high-level functionality.
+
+• Use a real API to search for movies as we type – via omdb api below
+• Create a "Netflix style" horizontal scroll effect
+• Add movies to and remove them from our favourites
+• Save user favourites to local storage for the data to appear when the app refreshes.
+
+Notes about implmentation:
+The application displayes 2 lists of movies: first one with the searched movies, which are fetched using axion, and the second with the favorite ones, that is stored locally.
+The lists of movies are rendered horizontally.
+By tapping a movie from the list we can add/remove them from favorites.
+All the favorite movies are stored in the local memory using async-storage.
+
+This project uses the yarn package manager. To run the project please follow these steps:
+
 1. yarn install
 2. yarn android
 
