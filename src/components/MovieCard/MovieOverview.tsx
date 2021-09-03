@@ -29,7 +29,9 @@ const MovieOverview = ({
       <TouchableWithoutFeedback onPress={onMoviePress}>
         <Image style={styles.logo} source={{uri: movie.Poster}} />
       </TouchableWithoutFeedback>
-      <Text style={styles.text}>{movie.Title}</Text>
+      <Text numberOfLines={1} ellipsizeMode="head" style={styles.text}>
+        {movie.Title}
+      </Text>
     </View>
   );
 };

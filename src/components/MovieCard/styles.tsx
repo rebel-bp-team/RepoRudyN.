@@ -7,9 +7,10 @@ const styles = StyleSheet.create({
     margin: 10,
   },
   text: {
+    flex: 1,
     color: 'white',
     textAlign: 'center',
-    width: 100
+    width: '80%',
   },
 });
 

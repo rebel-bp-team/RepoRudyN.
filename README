@@ -1,0 +1,5 @@
+This project uses the yarn package manager. To run the project follow these steps:
+1. yarn install
+2. yarn android
+
+Author: Nagy Rudolf (Rudy).

@@ -35,6 +35,7 @@ const MovieList = () => {
     let favMovies: Movie[] = [];
     let keys = await getAllKeys();
 
+    // todo use the multi get from AsyncStorage
     keys.forEach(async key => {
       let favoriteMovie = await getItem(key);
 
@@ -44,7 +45,6 @@ const MovieList = () => {
       }
     });
     setTimeout(() => {
-      console.log(favMovies);
       setFavoriteMovies(favMovies);
     }, 1000);
   };
